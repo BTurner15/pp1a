@@ -40,9 +40,9 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Pair Program 1</title>
+	<title>Pair Program 1 with Robert Hill</title>
 	    <header>
-	      	 <h2>Pair Programming 1</h2>
+	      	 <h2>Pair Programming 1 04-03-2019</h2>
         </header>
 </head>
 <body>
@@ -50,7 +50,7 @@
 <?php # 1st things first. Let's set up error reporting !
 // Flag variable for site status:
 define('LIVE', FALSE);
-include("functions.php");
+include("includes/functions.php");
 // Use my error handler:
 set_error_handler('my_error_handler');
 // start of the specific code
